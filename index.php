@@ -8,6 +8,9 @@
 
 	$games = $queryGame->fetchAll(PDO::FETCH_ASSOC);
 
+
+
+
 ?>
 
 
@@ -43,7 +46,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Acceuil
+              <a class="nav-link" href="index.php">Acceuil
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -51,7 +54,7 @@
               <a class="nav-link" href="#">A propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Locations</a>
+              <a class="nav-link" href="newgame.php">Ajout d'un jeu</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login.php">Connexion</a>
